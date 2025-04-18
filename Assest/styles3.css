@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body{font-family: 'Poppins';}
+
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.active a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+header{
+    width: 100vw;
+    height: 90vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header {
+    width: 100%; /* Ensure the image takes up 100% width of its container */
+    height: 100%; /* Allow the image to scale proportionally */
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctnz{
+    padding: 8px 15px;
+    background-color: crimson;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.active{
+    color: chartreuse;
+    font-weight: bold;
+}
+
+
+.navbarz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 18px;
+    height: 80px;
+
+}
+
+
+.nav-linkz a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+/* Hover effect for links */
+
+.nav-linkz{
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    
+
+}
+.nav-linkz li{
+    margin: 0 30px;
+
+
+}
+li:hover{
+    background-color:aquamarine;
+    cursor:pointer;
+    
+}
+.fixed-navbarz {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #556B2F; /* Adjust the background color as needed */
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1); /* Add a shadow for a subtle effect */
+    z-index: 1000;
+}
+.navbar-content {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+/* Style for both elements */
+.navbar-content .coco {
+    display: block;
+    margin-right: 10px; /* Adjust the margin as needed */
+    margin-top: 5px; /* Add some top margin for spacing if needed */
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-content .logoo {
+    margin-left: 10px; /* Adjust the left margin as needed */
+    
+    font-size: 35px;
+    color:whitesmoke;
+}
+
+
+
+
+.mainpara {
+
+    font-size: 16px;
+    text-align: center;
+}
+
+.image-container {
+    height: auto;
+    overflow: hidden;
+}
+
+.Image {
+    height: 50%;
+    width: 50%;
+}
+
+.mainpara2 {
+
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.catergoryname1 {
+    font-family: 'Calibri';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.mainhead {
+    font-size: 35px;
+    color: #556B2F;
+
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+
+

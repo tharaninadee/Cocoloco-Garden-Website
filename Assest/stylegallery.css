@@ -1,0 +1,263 @@
+/*gallery*/
+
+
+.containeers{
+    width:100%;
+    margin-left: 40px;
+    margin-right: 20px;
+    }
+    .containers{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+    .box {
+      display: block;
+      float: left;
+      width: 500px;
+      padding: 50px;
+      border-radius: 20px;
+    }
+    
+    .mainpara{
+    font-size: 16px;
+    text-align: center;
+    color:var(--text-light) ;
+    border: 2px;     
+    }
+    
+    .mainhead {
+    color: var(--text-dark);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    }
+    
+    .category-col {
+      text-align: center;
+      font-size: 16px;
+      margin-left: 10px;
+    
+    }
+    
+    .category-link {
+      display: block;
+      text-decoration: none;
+      color: #333;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      
+    }
+    
+    .category-link:hover,
+    .category-link.active {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+    
+    .category-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .image-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      height: 400px;
+    }
+    
+    .gallery-image {
+      max-width: 100%;
+      height: 350px;
+    }
+    
+    .category-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .container h2 {
+      text-align: center;
+      color: #0cb511;
+      margin-top: 25px;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    
+    .category-links {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+    .category-link.active {
+      border-bottom: 2px solid var(--text-dark); /* Add a 2px solid underline for the active category */
+    }
+    
+    /*login*/
+    
+    
+    .container-login {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    width: 100%;
+      
+    }
+    
+    .container__left {
+      flex: 1;
+      margin-right: 20px;
+      background-color: #fff;
+    
+    }
+    
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header-login {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .back__btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.5rem;
+      color: var(--text-light);
+      margin-bottom: 10px;
+      margin-right: 600px;
+    
+    
+    }
+    
+    .form__content {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .form__title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    .form__subtitle {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+    .form-field {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    
+    .btn-login {
+      background-color:#637f32 ;
+      color: #fff;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+    
+    .btn-login:hover {
+      background-color: #4C622C;
+    }
+    
+    .bottom__line {
+      height: 3px;
+      width: 100%;
+      background-color:var(--text-light);
+      margin: 30px 0;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    
+    .footer__title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    .social__icons i {
+      font-size: 1.5rem;
+      color: #637f32;
+      cursor: pointer;
+      transition: 0.3s;
+      text-align: center;
+    }
+    
+    .social__icons i:hover {
+      color: #4C622C;
+    }
+    .container__right {
+      flex: 1;
+      background-image: url('../Image/coco6.jpeg');
+      background-size: cover; /* This will ensure the image covers the entire element */
+      background-position: center; /* This will center the image */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      color: #fff;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center; /* Center content vertically */
+      height: 100vh; /* Set the height to 100% of the viewport height */
+      position: relative; /* This is necessary for the absolute positioning of the child elements */
+    }
+    
+    .container__right h3,
+    .container__right p {
+      color: #fff;
+      margin-top: 300px;
+    }
+    
+    .btn-register {
+      background-color: #637f32;
+      color: #fff;
+      padding: 10px 20px; /* Increase padding for better click area */
+      text-decoration: none;
+      border: none;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-bottom: 50px;
+      transition: background-color 0.3s ease;
+      width: 150px; /* Set a fixed width for the button */
+      position: absolute; /* Position the button absolutely within the container */
+      bottom: 20px; /* Position the button at the bottom of the container */
+    }
+    
+    .btn-register:hover {
+      background-color: #4C622C;
+      color: #fff;
+    }
+    
+    .container__right h3 {
+      margin-bottom: 10px;
+    }
+    
+    .container__right p {
+      margin-bottom: 30px;
+    }

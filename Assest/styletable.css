@@ -1,0 +1,77 @@
+.AddingTable {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.AddingTable caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.AddingTable th,
+.AddingTable td {
+    padding: 10px;
+    border-bottom: 1px solid #d9534f;
+}
+
+.AddingTable th {
+    background-color: burlywood;
+}
+
+.AddingTable tbody tr:hover {
+    background-color: beige;
+}
+
+.AddingTable .action-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d9534f;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+.topic{
+        color:brown ;
+        font-size: 28px;
+        font-weight:bold;
+        padding-top:10px;
+        font-family: "Poppins", sans-serif;
+        background-color:darkseagreen;
+ }
+ .btn-brown {
+    /* Customize button styles as needed */
+    background-color: #8B4513;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.btn-brown:hover {
+    background-color: darkgreen; 
+    color: #fff;
+}
+
+.Adding-label{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #8B4513;
+    font-weight: bold;
+    
+
+}
+
+
+
+    
+  

@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #637f32 ;
+  --primary-color-dark: #4C622C;
+  --text-dark: #87680d;
+  --text-light: #78716c;
+  --black: #000;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__subheader {
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: var(--text-dark);
+}
+
+.section__subheader::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translate(1rem, -50%);
+  height: 2px;
+  width: 4rem;
+  background-color: var(--primary-color);
+}
+
+.section__header {
+  max-width: 600px;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: var(--text-dark);
+}
+
+.section__description {
+  max-width: 600px;
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-dark);
+  color: white;
+  border: 1px solid var(--white);
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--text-dark); /* Dark text color */
+
+}
+
+/* Header Styles */
+header {
+    position: relative; /* Set the desired height for your header */
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.967), rgba(0, 0, 0, 0.5)); /* Gradient for darker effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; /* Set your desired text color */
+}
+
+.facility_details {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+
+
+/* Facility Card Styles */
+.row {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--text-dark); /* Set your desired color */
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: #555; /* Set your desired color */
+}
+
+.facilties {
+    position: relative;
+    isolation: isolate;
+    text-align: center;
+}
+/* Facility Card Styles */
+.facility-card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.facility-card:hover {
+    transform: scale(1.05);
+}
+
+.facility-card .image-container {
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.facility-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    height: 22rem;
+}
+
+.facility-card .content {
+    padding: 20px;
+    text-align: center;
+}
+.facility_details h1 {
+    font-size: 1.5rem;
+    color: var(--text-dark); /* Dark text color */
+    text-align: center;
+  }
+  
+  .facility_details p {
+    font-size: 0.8rem;
+    color: var(--text-light); /* Gray text color */
+    margin-bottom: 40px;
+    text-align: center;
+
+  }
+
+.container {
+  max-width: 1140px; 
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+/* Row Styles */
+.row {
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+/* Column Styles */
+.col-md-6 {
+  padding: 0 15px; /* Adjust padding as needed */
+}
+
+/* Additional Styling for Image in Column */
+.col-md-6 img {
+  width: 80%; /* Make image responsive */
+  border-radius: 8px; /* Optional: Add border-radius for a rounded image */
+}
+
+/* Packages Section Styles */
+.packages_container {
+  padding: 5rem 0;
+}
+
+.packages_details {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.packages_details h1 {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  margin-bottom: 50px;
+}
+
+.packages_details p {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+/* Package Card Styles */
+.row {
+  margin-bottom: 20px;
+}
+
+.col-md-6 {
+  position: relative;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-md-6 h2 {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.col-md-6 p {
+  font-size: 0.8rem;
+  color: var(--text-light);
+
+}
+
+.packbtn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.packbtn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+/*service*/
+/* Services Section Styles */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.mainhead {
+  color: var(--text-dark);
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.mainpara {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  width: 50%;
+  height: auto;
+  vertical-align: top;
+}
+
+.photo {
+  text-align: center;
+}
+
+.bouncing-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.bouncing-image:hover {
+  transform: translateY(-5px);
+  animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(-5px);
+  }
+  100% {
+      transform: translateY(5px);
+  }
+}
+
+.paragraph {
+  font-size: 0.8rem;
+  font-weight: 100;
+  line-height: 1.75rem;
+  text-align: center;
+  color: var(--text-light);
+}
+
+.heading {
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:var(--text-dark);
+  text-align: center;
+}
+.greenbutton {
+  background-color: var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.greenbutton:hover {
+  background-color: var(--primary-color-dark);
+color: white;
+border: 1px solid var(--white);
+}
+  
